@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=K2D');
+
+body{
+  background-image: url('./stockcar.jpg');
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: auto;
+}
+
+html{
+  height: 100%;
+  overflow: hidden;
+}
+
+.App{
+  margin-top: 150px;
+}
+
+.App h1, h4{
+  text-align: center;
+  position: relative;
+  color: white;
+  font-family: 'Sheeping Cats', sans-serif;
+  letter-spacing: 10px;
+  font-size: 150px;
+  transform: skewX(-20deg);
+}
+
+.App h4{
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.App .main_menu{
+  height: 200px;
+}
+
+.App .main_nav{
+  width: 50%;
+  margin: 0 auto;
+  position: relative;
+  top: 50px;
+  text-decoration: underline;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  margin-top: 20px;
+  list-style-type: none;
+  font-family: 'Sheeping Cats', sans-serif;
+  font-size: 20px;
+  color: white;
+}
