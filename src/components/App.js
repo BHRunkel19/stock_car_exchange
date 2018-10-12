@@ -9,8 +9,8 @@ class App extends Component {
         <h4>The Exchange for the Modern Enthusiast</h4>
         <div className="main_menu">
           <ul className="main_nav">
-            <li>New User</li>
-            <li>User Login</li>
+            <li><a>New User</a></li>
+            <li><a>User Login</a></li>
           </ul>
         </div>
       </div>
