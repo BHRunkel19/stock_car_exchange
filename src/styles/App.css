@@ -14,6 +14,7 @@ html{
   overflow: hidden;
 }
 
+/* Main App Page */
 .App{
   margin-top: 150px;
 }
@@ -31,6 +32,7 @@ html{
 .App h4{
   font-size: 20px;
   font-weight: 400;
+  top: -75px;
 }
 
 .App .main_menu{
@@ -41,7 +43,7 @@ html{
   width: 50%;
   margin: 0 auto;
   position: relative;
-  top: 50px;
+  top: 0px;
   text-decoration: underline;
   display: flex;
   flex-flow: row nowrap;
@@ -55,4 +57,44 @@ html{
 
 .App .main_nav a{
   cursor: pointer;
+}
+
+.App .main_nav a:hover{
+  mix-blend-mode: hard-light;
+  color: violet;
+}
+
+/* Trending Page */
+#trending_container{
+  border: 1px solid white;
+  color: white;
+  text-align: center;
+}
+
+/* Watching Page */
+#watching_container{
+  border: 1px solid white;
+  color: white;
+  text-align: center;
+}
+
+/* Search Page */
+#search_container{
+  border: 1px solid white;
+  color: white;
+  text-align: center;
+}
+
+/* Marketplace Page */
+#marketplace_container{
+  border: 1px solid white;
+  color: white;
+  text-align: center;
+}
+
+/* Help page */
+#help_container{
+  border: 1px solid white;
+  color: white;
+  text-align: center;
 }
