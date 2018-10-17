@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css?family=K2D');
-
 body{
   background-image: url('./stockcar.jpg');
   height: 100%;
@@ -35,39 +33,62 @@ html{
   top: -75px;
 }
 
-.App .main_menu{
-  height: 200px;
+/* Shared Element Stylings */
+.navigation_dropdown{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  color: white;
+  font-family: 'Sheeping Cats', sans-serif;
+  font-size: 26px;
+  padding: 10px;
 }
 
-.App .main_nav{
-  width: 50%;
-  margin: 0 auto;
-  position: relative;
-  top: 0px;
-  text-decoration: underline;
+.selected{
+  color: #E92CA0;
+}
+
+.nav-link{
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.nav-link:hover{
+  background: #E92CA0;
+}
+
+.large_container{
+  height: 500px;
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-around;
-  margin-top: 20px;
-  list-style-type: none;
-  font-family: 'Sheeping Cats', sans-serif;
-  font-size: 20px;
+  padding-bottom: 20px;
+}
+
+#main_footer{
   color: white;
-}
-
-.App .main_nav a{
-  cursor: pointer;
-}
-
-.App .main_nav a:hover{
-  mix-blend-mode: hard-light;
-  color: violet;
+  text-align: center;
+  position: relative;
+  bottom: 5px;
+  width: 100%;
 }
 
 /* Trending Page */
 #trending_container{
   border: 1px solid white;
   color: white;
+  text-align: center;
+}
+
+.trends_container{
+  border: 2px solid yellow;
+  width: 30%;
+}
+
+.trends_container p{
+  color: white;
+  font-size: 20px;
   text-align: center;
 }
 
@@ -78,11 +99,28 @@ html{
   text-align: center;
 }
 
+.small_watch_container{
+  border: 1px solid yellow;
+  display: flex;
+  flex-flow: row nowrap;
+  width: 45%;
+}
+
+.small_watch_container p{
+  width: 100%;
+  text-align: center;
+}
+
 /* Search Page */
 #search_container{
   border: 1px solid white;
   color: white;
   text-align: center;
+}
+
+.search_display{
+  border: 2px solid yellow;
+  width: 45%;
 }
 
 /* Marketplace Page */
@@ -97,4 +135,11 @@ html{
   border: 1px solid white;
   color: white;
   text-align: center;
+}
+
+/* Media Queries */
+@media (max-width: 850px){
+  .navigation_dropdown{
+    flex-flow: column nowrap;
+  }
 }

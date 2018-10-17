@@ -35,6 +35,9 @@ export default class BaseLayout extends Component{
 
         {this.props.children}
 
+        <footer id="main_footer">
+          <p>Copyright StockCar LLC 2018</p>
+        </footer>
       </div>
     )
   }
