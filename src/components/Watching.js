@@ -5,8 +5,6 @@ class Trending extends Component{
     return(
       <div id="watching_container">
 
-        <h1>This is the watching page</h1>
-
         <div className="large_container">
           <div className="small_watch_container" id="watching_window">
             <p>Form field for selecting auto types to monitor</p>
