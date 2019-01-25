@@ -76,6 +76,8 @@ html{
   left: 100px;
 }
 
+
+
 .selected{
   color: #E92CA0;
 }
@@ -113,6 +115,7 @@ html{
   position: absolute;
   width: 100%;
   top: 120px;
+  font-size: 72px;
 }
 
 .trends_container{
@@ -163,6 +166,13 @@ html{
   border: 2px solid yellow;
   width: 45%;
   height: 75%;
+}
+
+.form_container{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: white;
 }
 
 /* Marketplace Page */
